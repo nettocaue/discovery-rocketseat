@@ -89,7 +89,7 @@ body * {
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px)
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
 
@@ -116,7 +116,7 @@ ul li a {
   border-radius: 8px;
 
   backdrop-filter: blur(4px);
-  -webkit-background-clip: blur(4px);
+  background-clip: blur(4px);
 
   text-decoration: none;
   font-weight: 500;
